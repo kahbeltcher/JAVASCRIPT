@@ -6,7 +6,7 @@ const app = express();
 app.get("/", (req, res) => {
   let anoFato = req.query.ano;
 
-  var fato = servicoBuscarFatoPorAno(anoFato);
+  let fato = servicoBuscarFatoPorAno(anoFato);
 
   res.json({ ano: fato });
 });
