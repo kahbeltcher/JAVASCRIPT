@@ -31,7 +31,7 @@ var frases_do_dia = [
     "O que vale a pena possuir, vale a pena esperar",
     "A esperança é o sonho do homem acordado"
 ];
-
+// Pega a data atual do sistema e atraves desta é fixado a frase do dia.
 var data_atual = new Date();
 var numero_escolhido = data_atual.getDate();
 
