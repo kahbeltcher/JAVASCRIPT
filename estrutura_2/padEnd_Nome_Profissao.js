@@ -1,10 +1,8 @@
-let 
-label_nome= "Nome:";
+let label_nome= "Nome:";
 let valor_nome = "Jorge Luiz";
 
 let label_profissao = "Profissão:";
-let 
-valor_profissao= "Professor";
+let valor_profissao= "Professor";
 
 let label_endereco = "Endereço:";
 let valor_endereco = "Rua Cruzeiro do Sul";

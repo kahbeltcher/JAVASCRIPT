@@ -1,0 +1,15 @@
+{
+  "name": "ipca",
+  "version": "1.0.0",
+  "description": "O projeto que criado é uma API de dados históricos do IPCA. O objetivo dessa API é permitir que o cliente consiga:",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
