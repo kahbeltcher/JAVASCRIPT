@@ -1,0 +1,40 @@
+# Ignorar arquivos de log
+*.log
+logs/
+*.log.*
+log/
+
+# Ignorar arquivos de ambiente
+.env
+.env.*
+
+# Ignorar pastas de dependências (ex: Node.js)
+node_modules/
+
+# Ignorar diretórios de build
+dist/
+build/
+out/
+
+# Ignorar arquivos de cache e temporários
+*.tmp
+*.temp
+*.swp
+
+# Ignorar arquivos de sistema
+.DS_Store
+Thumbs.db
+
+# Ignorar pastas de IDEs
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Ignorar arquivos de cobertura de testes
+coverage/
+*.lcov
+
+# Ignorar arquivos gerados por pacotes de lock (opcional)
+# package-lock.json
+# yarn.lock
