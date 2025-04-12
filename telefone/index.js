@@ -10,5 +10,5 @@ app.get("/", (req, res) => {
 
 app.listen(8080, () => {
   let data = new Date();
-  console.log("Servidor node iniciado em: " + data);
+  console.log("Node initial em: " + data);
 });
