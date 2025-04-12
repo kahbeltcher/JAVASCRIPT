@@ -6,7 +6,7 @@ let resumo = "";
 if(tamanho > 100)
  {
 
-    resumo = conteudo.subString(0, 97);
+    resumo = conteudo.substring(0, 97);
     resumo += "...";
 
 } 

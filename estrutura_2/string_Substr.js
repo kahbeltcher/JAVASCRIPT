@@ -1,29 +1,23 @@
-//substr
+// Exemplo 1: Usando substr
+let frase1 = "Estou aprendendo JavaScript na DevMedia";
+let resultado1 = frase1.substr(17, 10);
 
-let frase = "Estou aprendendo JavaScript na DevMedia";
+console.log(resultado1); // JavaScript
 
-let resultado = frase.substr(17, 10);
+// Exemplo 2: Usando substring
+let frase2 = "Eu sou programador JavaScript";
+let resultado2 = frase2.substring(7, 18);
 
-console.log(resultado); // JavaScript
+console.log(resultado2); // programador
 
-//substring
-let frase = "Eu sou programador JavaScript";
+// Exemplo 3: Usando substr
+let frase3 = "Ana é especialista em JavaScript";
+let substring1 = frase3.substr(6, 12);
 
-let resultado = frase.substring(7, 18);
+console.log(substring1); // especialista
 
-console.log(resultado); // programador
+// Exemplo 4: Usando substring
+let frase4 = "Ana é especialista em JavaScript";
+let substring2 = frase4.substring(6, 12);
 
-
-//substr
-let frase = "Ana é especialista em JavaScript";
-
-let substring_1 = frase.substr(6, 12);
-
-console.log(substring_1); // especialista
-
-//substring
-let frase = "Ana é especialista em JavaScript";
-
-let substring_1 = frase.substring(6, 12);
-
-console.log(substring_1); // especi
+console.log(substring2); // especialista
